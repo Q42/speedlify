@@ -4,6 +4,7 @@ module.exports = {
 	// skip if localhost
 	// skip if this is a new fork of the speedlify (not Zach’s)
 	skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
+	hide: true,
 	options: {
 		frequency: 60 * 11 + 30, // 11h, 30m
 		// Use "run" if the sites don’t share assets on the same origin

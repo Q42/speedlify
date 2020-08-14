@@ -12,10 +12,10 @@ module.exports = async function() {
 		description: "Web Sites Built with Eleventy",
 		// don’t run in Production or on Branch/Deploy previews
 		// this one is localhost only.
-		skip: process.env.CONTEXT,
+		skip: true,
 
 		// Hide from category list when hosted
-		hide: process.env.CONTEXT && process.env.SITE_NAME !== "speedlify",
+		hide: true,
 
 		options: {
 			// Don’t show speedlify score or rank for sites with more than 2 or more yellow circles
