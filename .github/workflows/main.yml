@@ -1,5 +1,8 @@
 name: Trigger Netlify Build
 on:
+  push:
+    branches:
+      - 'q42-live'
   schedule:
     # Run at 0830 2 times per month
     - cron: '30 8 1,18 * *'
