@@ -14,7 +14,6 @@ module.exports = {
 		freshChrome: "site",
 	},
 	urls: [
-		"https://www.netlify.com/",
 		"https://www.netlify.com/donation-matching/",
 		"https://www.netlify.com/products/build/plugins/",
 		"https://www.netlify.com/with/sitecore/",
@@ -24,7 +23,15 @@ module.exports = {
 		"https://www.netlify.com/partners/agency/",
 		"https://www.netlify.com/careers/",
 		"https://www.netlify.com/pricing/",
+		"https://www.netlify.com/pricing/pro/",
+		"https://www.netlify.com/pricing/business/",
+		"https://www.netlify.com/privacy/",
+		"https://www.netlify.com/gdpr-ccpa/",
+		"https://www.netlify.com/with/gatsby/",
+		"https://www.netlify.com/for/ecommerce/",
+		"https://www.netlify.com/",
 		"https://jamstackconf.com/",
 		"https://jamstackconf.com/virtual/",
+		"https://headlesscommercesummit.com/",
 	]
 };
