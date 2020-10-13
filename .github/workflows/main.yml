@@ -4,8 +4,8 @@ on:
     branches:
       - 'q42-live'
   schedule:
-    # Run at 0830 2 times per month
-    - cron: '30 8 1,18 * *'
+    # Run at 0830, every 3 days
+    - cron: '30 8 1,4,7,10,13,16,19,22,25,28 * *'
 jobs:
   build:
     name: Request Netlify Webhook
