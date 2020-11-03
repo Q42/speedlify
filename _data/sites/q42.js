@@ -15,7 +15,6 @@ module.exports = {
 	urls: [
     "https://www.q42.nl/",
     "https://www.q42.nl/werk/vangogh-museum",
-    "https://www.q42.nl/over-q42",
-    "https://www.q42.nl/q-ers"
+    "https://www.q42.nl/over-q42"
 	]
 };
