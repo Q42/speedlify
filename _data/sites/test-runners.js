@@ -18,7 +18,6 @@ module.exports = {
 		"https://karma-runner.github.io/latest/index.html",
 		"https://gulpjs.com/",
 		"https://webhint.io/",
-		"https://gruntjs.com/",
 		"https://theintern.io/",
 		"https://istanbul.js.org/",
 		"https://webdriver.io/",
