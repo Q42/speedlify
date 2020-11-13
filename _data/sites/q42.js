@@ -3,7 +3,7 @@ module.exports = {
 	description: "Q42.nl",
 	// skip if localhost
 	// skip if this is a new fork of the speedlify (not Zach’s)
-	skip: false,
+	skip: true,
 	options: {
 		frequency: 60 * 24 * 14, // 14 days
 		// Use "run" if the sites don’t share assets on the same origin
